@@ -1,0 +1,47 @@
+{
+	"Input Data":{
+		"prefix": "input",
+		"body": "for ( int i = 1 ; i <= n ; i++ ) cin >> ${1:a}[i];",
+		"description": "For input a"
+	},
+	"YES or NO" :{
+		"prefix": "yes",
+		"body": [
+			"for ( int i = 1 ; i <= T ; i++ )",
+			"    if ( ans[i] ) cout << \"YES\" << endl;",
+			"    else cout << \"NO\" << endl;"
+		]
+	},
+	"Start":{
+		"prefix": "Code",
+		"body": [
+			"int n;",
+			"int a[maxn];",
+			"int ans[maxn];\n\n",
+			"int main ()",
+			"{",
+			"    IOS;",
+			"    int T ; cin >> T;",
+			"    for ( int cas = 1 ; cas <= T ; cas++ ) { ",
+			"        cin >> n;",
+			"    }",
+			"    for ( int i = 1 ; i <= T ; i++ )",
+			"        cout << ans[i] << endl;",
+			"}",
+		]
+	},
+	"Header" :{
+		"prefix": "header",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"#define ll long long",
+			"#define maxn (int)(1e6+10)",
+			"#define IOS ios::sync_with_stdio(0);",
+			"#define FFF freopen(\"out\", \"w\", stdout); "
+		]
+	}
+	
+	
+
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.pgsql": "postgres",
+        "*.ttml": "xml",
+        "*.ttss": "css"
+    }
+}
