@@ -1,21 +1,5 @@
 {
     "configurations": [
-        // {
-        //     "name": "Win32",
-        //     "includePath": [
-        //         "${workspaceFolder}/**"
-        //     ],
-        //     "defines": [
-        //         "_DEBUG",
-        //         "UNICODE",
-        //         "_UNICODE"
-        //     ],
-        //     "windowsSdkVersion": "10.0.18362.0",
-        //     "cStandard": "c17",
-        //     "cppStandard": "c++17",
-        //     "intelliSenseMode": "gcc-x64",
-        //     "compilerPath": "C:/env/mingw-w64/mingw64/bin/g++.exe"
-        // },
         {
             "name": "Deepin",
             "includePath": [
