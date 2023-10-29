@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Linux"
+            "preLaunchTask": "linux"
         },
         {
             "name": "(gdb) 启动",
