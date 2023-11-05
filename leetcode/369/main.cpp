@@ -1,8 +1,8 @@
-#include "c.h"
+#include "d.h"
 
 int main () {
     Solution res ;
-    // vector<int> v = {1,2,6,9};
-    vector<int> v = {4,0,10,2,10,6};
-    res.minIncrementOperations(v,8);
+    vector<vector<int>> edges = {{0,1},{0,2}};
+    vector<int> coins = {8,4,4};
+    res.maximumPoints(edges,coins,0);
 }
