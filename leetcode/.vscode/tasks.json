@@ -27,9 +27,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}/main.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/main.exe"
             ],
             "options": {
                 "cwd": "C:/env/mingw-w64/mingw64/bin"
