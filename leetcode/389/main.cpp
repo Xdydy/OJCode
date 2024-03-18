@@ -1,6 +1,7 @@
-#include "c.h"
+#include "d.h"
 
 int main () {
     Solution res;
-    res.minimumDeletions("dabdcbdcdcd",2);
+    vector<int> nums = {1,0,0,1};
+    cout << res.minimumMoves(nums,4,2) << "\n";
 }
