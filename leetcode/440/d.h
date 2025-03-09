@@ -13,7 +13,7 @@ public:
                 swap(v[0], v[1]);
             }
         }
-        sort(conflictingPairs.begin(), conflictingPairs.end(), [&](vector<int> a1, vector<int> a2) {
+        sort(conflictingPairs.begin(), conflictingPairs.end(), [&](vector<int> &a1, vector<int> &a2) {
             return a1[1] < a2[1] || (a1[1] == a2[1] && a1[0] < a2[0]);
         });
 
